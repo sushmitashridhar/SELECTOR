@@ -1,0 +1,69 @@
+/* /* 
+h1{
+    color: black;
+    text-align: center;
+}
+    
+    
+    p{
+    color: blueviolet;
+    background-color: black;
+    text-align: center;
+} */
+
+
+/*universal selector*/
+/* *{
+color: crimson;
+font-style: italic;
+font-size: smaller;
+background-color: black;
+} */
+
+/*tag selector */
+p{
+    color: brown;
+    background-color: aqua;
+    padding: 20px 30px 20px 30px;
+}
+#p2{
+    background-color: beige;
+    border: 3px solid brown;
+} */
+
+/* 
+/* class selector */
+.c1{
+    background-color: aquamarine;
+    color: brown;
+} 
+*/
+
+
+/* 
+.click{
+    background-color: brown;
+    color:white;
+}
+.click:hover{
+    color: chocolate;
+    border-radius: 10px;
+    border-color: silver;
+} */
+
+
+/* Descendent selector */
+/* 
+thead th{
+    background-color: rebeccapurple;
+}
+
+tbody td{
+    background-color: yellowgreen;
+} */
+
+input[type="text"]{
+    background-color: red;
+    border-radius: 30px;
+    border-color: violet;
+}
